@@ -5,7 +5,7 @@
 
 * Faça o clone do projeto
 ```bash
-https://github.com/CaioBastosImpacta/palindromo-tdd.git
+https://github.com/CaioBastosImpacta/tdd-mutations-palindromo
 ```
 
 * Execute as ações do maven para build na raíz do projeto
@@ -35,7 +35,7 @@ curl --request POST \
 
 * Acessar o link e fazer o pull da imagem
 ```bash
-https://hub.docker.com/repository/docker/caiobastos12/palindromo
+https://github.com/CaioBastosImpacta/tdd-mutations-palindromo
 ```
 
 * Execute as ações do maven para build na raíz do projeto
