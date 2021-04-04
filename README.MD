@@ -31,30 +31,6 @@ curl --request POST \
   --url localhost:8080/fit/v1/palindromos/{TEXTO A INSERIR}
 ```
 
-## Maneira 2 de rodar o projeto
-
-* Acessar o link e fazer o pull da imagem
-```bash
-https://github.com/CaioBastosImpacta/tdd-mutations-palindromo
-```
-
-* Execute as ações do maven para build na raíz do projeto
-```bash
-docker run <nome_imagem>
-```
-
-* 1. Abrir o Postman
-```bash
-Metodo: GET
-URL: localhost:8080/fit/v1/palindromos/{TEXTO A INSERIR}
-```
-
-* 2. LINHDA DE COMANDO
-```bash
-curl --request POST \
-  --url localhost:8080/fit/v1/palindromos/{TEXTO A INSERIR}
-```
-
 ## Gerar o relatório teste mutante da aplicação
 ```bash
 1. mvn org.pitest:pitest-maven:mutationCoverage
