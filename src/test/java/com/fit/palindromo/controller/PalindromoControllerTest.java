@@ -27,17 +27,11 @@ public class PalindromoControllerTest {
 	
 	@Test
 	public void testVerifySucessoTrue() {
-		given()
-			.get("/fit/v1/palindromos/Rotator")
-		.then()
-			.statusCode(HttpStatus.OK.value());
+		given().get("/fit/v1/palindromos/Rotator").then().statusCode(HttpStatus.OK.value());
 	}
 	
 	@Test
 	public void testVerifySucessoFalse() {
-		given()
-			.get("/fit/v1/palindromos/CaioBastos")
-		.then()
-			.statusCode(HttpStatus.OK.value());
+		given().get("/fit/v1/palindromos/CaioBastos").then().statusCode(HttpStatus.OK.value());
 	}
 }
